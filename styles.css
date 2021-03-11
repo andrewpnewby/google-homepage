@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0%;
+}
+.wrapper {
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	background-color: lightgray;
+	margin: 0 auto;
+	justify-content: space-between;
+	max-width: 1000px;
+	height: 650px;
+	
+
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	background-color: lightskyblue;
+	border: 2px solid black;
+	height: 50px;
+	width: 100%;
+	
+
+}
+.icon_block{
+	display: inline-flex;
+	justify-content: center;
+	flex: 0 1;
+	background-color: linen;
+	border: 2px solid black;
+	max-width: 350px;
+	min-width: auto;
+	
+}
+#doodle{
+	
+	margin: 30px auto;
+}
+
+.form{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap; 
+	flex-wrap: 1;
+	background-color: rgb(236, 221, 82);
+	border: 2px solid black;
+	justify-self: stretch;
+	max-width: 800px;
+	flex-shrink: 1 1;
+}
+.empty_space{
+		flex-grow: 2;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap; 
+	background-color: rgb(216, 214, 212);
+	border: 1px solid black;
+	height: 50px;
+	width: 100%;
+}
+.foot_nav{
+	color: rgb(166, 170, 175);
+	text-decoration: none;
+	font-size: 0.7em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0 10px;
+}
+.foot_d1{
+
+}
+.foot_d2{
+	
+}
+#foothr1::before{
+	content: url(img/download.png);
+	float: left;
+	
+	
+	margin: 0 0;
+	height: 12px;
+	
+	
+}
+.foot_d3{
+	
+}
+a{
+	text-decoration: none;
+}
