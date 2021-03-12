@@ -8,54 +8,62 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div class="wrapper">
-
-		<div class="header">
-			<div class="sec1">About</div>
-			<div class="sec2">Stor</div>
-			<div class="strecher"></div>
-			<div class="sec3">Gmail</div>
-			<div class="sec4">Images</div>
-			<div class="sec5">Apps</div>
-			<div class="sec6">Photo</div>
+	<main class="wrapper"> 
+		
+		<ul class="header_nav">
+				
+			<li class="item1">About</li>
+			<li class="item2">Store</li>
+			<li class="item3"></li>
+			<li class="item4">Gmail</li>
+			<li class="item5">Images</li>
+			<li class="item6"><a href="#"><img src="img/apps.png" alt="#"></a></li>
+			<li class="item7"><a href="#"><img src="img/photo.png" alt="#"></a></li>
+		</ul>
+	
+		
+		<div class="icon_block">
+			<img id="doodle" src="img/doodle.png" alt="">
 		</div>
-
-		<div class="icon_block"><img id="doodle" src="img/doodle.png" alt=""></div>
+		<div>
 		<form action="/serch" method="GET" >
-		
-
-		
+				
 				<div>
 					<input type="search" name="serch" value="#" type="hidden" id="search_feald">
 				</div>
+
 				<div id="buttons">
 					<button type="submit" value="#" name="button_1" class="buttons">Google Search</button>
+
 					<button type="submit" name="button_2" class="buttons" value="#">I'm Feeling lucky</button>
 				</div>		
 			
 		
-		</form> 
-		
-		
-
-		<div class="empty_space"><span class="rec-n">Google offered in:<a href="#" alt="#"> русский</a></span></div>
-
-		<div class="footer">
-				<div class="foot_d1">
-					<span class="foot_nav">Advertising</span>
-					<span class="foot_nav"> Business</span>
-					 <span class="foot_nav">How to Search Workk</span>
-				</div>
-				<div class="foot_d2" id="foothr1">
-					<span class="foot_nav"><a href="#" >Carbon Nutural since 2007</a></span>
-				</div>
-
-				<div class="foot_d3">
-					<span class="foot_nav">Settings</span>
-					<span class="foot_nav">Privacy</span>
-					<span class="foot_nav">Term</span>
-				</div>
+			</form> 
 		</div>
-	</div>
+		
+
+		<div class="empty_space">
+			<span class="rec-n">Google offered in:<a href="#" alt="#"> русский</a></span>
+		</div>
+		
+		<ul class="footer">
+			<li class="ft1">Advertising</li>
+			<li class="ft1">Business</li>
+			<li class="ft1">How&nbsp;Search&nbsp;works</li>
+			<li class="str1"></li>
+			<li class="ft3" id="Carb">Carbon&nbsp;neutural&nbsp;since&nbsp;2007</li>
+			<li class="str1"></li>
+			<li class="ft2">Privacy</li>
+			<li class="ft2">Terms</li>
+			<li class="ft2">Settings</li>				
+		</ul>
+		
+				
+	
+
+	</main>
+
+
 </body>
 </html>
